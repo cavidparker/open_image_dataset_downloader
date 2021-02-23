@@ -7,7 +7,10 @@ Python3 is required.
 
 3. python main.py downloader --classes Balloon Airplane --type_csv train --limit 400
 
-4. python convert_annotations.py 
+# download in the same folder
+4. python main.py downloader --classes Balloon Airplane --type_csv train --limit 1000 --multiclasses 1
+
+5. python convert_annotations.py 
 
 
 open image data link : https://storage.googleapis.com/openimages/web/index.html
