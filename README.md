@@ -7,7 +7,7 @@ Python3 is required.
 
 3. python main.py downloader --classes Balloon Airplane --type_csv train --limit 400
 
-download in the same folder
+-- download in the same folder
 4. python main.py downloader --classes Balloon Airplane --type_csv train --limit 1000 --multiclasses 1
 
 5. python convert_annotations.py 
